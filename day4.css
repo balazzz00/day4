@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: white;
+    color: black;
+    width: 500px;
+    border-radius:10px ;
+}
+#parent1,#parent2,#parent3,#parent4{
+    display: grid;
+    display:flex;
+    border-radius: 10px;
+    font-size: x-large;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    gap: 5px 5px;
+}
+.child{
+    background-color: rgb(209, 212, 8);
+    font-size: x-large;
+    width: 50px;
+    gap: 5px 5px;
+}
+fieldset{
+    width:200px;
+    background-color: grey;
+    border-radius: 10px;
+}
+p{
+    background-color: white;
+    color: white;
+    height: 50px;
+}
+#div4,#div8,#div12,#div13,#div15,#div16{
+    background-color: red;
+    font-size: x-large;
+}
